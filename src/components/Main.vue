@@ -2,11 +2,11 @@
 main
   header
     a(href='/')
-      img.logo(alt='logo' src='../assets/logo.png')
+      img.logo(alt='logo' src='/logo.png')
     span NekoCraft
   section#first(bp='grid vertical-center' :style='styleObject')
     div(bp='12')
-      img.shake-slow.logo(alt='logo' src='../assets/logo.png')
+      img.shake-slow.logo(alt='logo' src='/logo.png')
       h1 NekoCraft
       h3 公益 | 正版 | 原版生存 | 死亡不掉
       p 一个和谐友爱的 MineCraft 服务器
@@ -27,7 +27,7 @@ main
         p.small (点击左侧以播放视频)
     section(bp='grid vertical-center')
       div(bp='last@md 4@md 10 offset-2')
-        img.img(src='../assets/members.jpg')
+        img.img(src='/members.jpg')
       .container(bp='first@md 12 5@md offset-2@md')
         h1 这是一个温馨的大家庭
         p 我们, 或许不够完美.
@@ -44,15 +44,15 @@ main
   section#third(bp='grid vertical-center')
     div(bp='12') 我们的优势
     section(bp='4@md 12')
-      img(src='../assets/minecraft.png')
+      img(src='/minecraft.png')
       p 高频处理器, TPS大部分时间都在20左右
       p 独立机房, 三线网路, 让您保持流畅游戏体验
     section(bp='4@md 12')
-      img(src='../assets/minecraft.png')
+      img(src='/minecraft.png')
       p 玩法多样, 建筑、红石、养老样样均可
       p 死亡不掉落已开启, 让您愉快游戏
     section(bp='4@md 12')
-      img(src='../assets/minecraft.png')
+      img(src='/minecraft.png')
       p 已通过 MCBBS 公益服务器审核
       p 只为打造一个良好的游戏环境和社区
   section#forth
@@ -114,7 +114,7 @@ window.mySwiper = new Swiper(".swiper", {
     disableOnInteraction: false,
   },
   loop: true,
-  
+
   pagination: {
     el: ".swiper-pagination",
   },
@@ -124,7 +124,7 @@ window.mySwiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
-const bgs = [0, 1, 2, 3, 4, 5, 6].map((i) => `../assets/backgrounds/${i}.jpg`);
+const bgs = [0, 1, 2, 3, 4, 5, 6].map((i) => `/backgrounds/${i}.jpg`);
 const keys = Object.keys(bgs);
 export default {
   data() {
@@ -142,7 +142,7 @@ export default {
   },
   methods: {
     getRandomImage(key) {
-      return new URL(`../assets/images/${key}.jpg`, import.meta.url).href;
+      return new URL(`/images/${key}.jpg`, import.meta.url).href;
     },
   },
 };
