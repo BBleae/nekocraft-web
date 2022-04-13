@@ -133,16 +133,13 @@ export default {
         () => Math.random() - 0.5
       ),
       styleObject: {
-        backgroundImage: `url(${
-          new URL(bgs[keys[(Math.random() * keys.length) | 0]], import.meta.url)
-            .href
-        })`,
+        backgroundImage: `url(${bgs[keys[(Math.random() * keys.length) | 0]]})`,
       },
     };
   },
   methods: {
     getRandomImage(key) {
-      return new URL(`/images/${key}.jpg`, import.meta.url).href;
+      return `/images/${key}.jpg`
     },
   },
 };
