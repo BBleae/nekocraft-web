@@ -7,11 +7,16 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "swiper": "^8.1.0",
+    "vue": "^3.0.5",
+    "webpack": "^5.72.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.4",
     "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.2",
+    "less-loader": "7.x",
+    "pug": "^3.0.2",
     "vite": "^2.4.0"
   }
 }
