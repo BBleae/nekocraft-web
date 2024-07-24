@@ -59,12 +59,12 @@ main
     h1 服务器管理组
     div
       section
-        img.img(src='https://minotar.net/helm/KagurazakaSatori/100.png')
-        h3 KagurazakaSatori
+        img.img(src='https://minotar.net/helm/AkiNazuki/100.png')
+        h3 AkiNazuki
         p 服主
       section
-        img.img(src='https://minotar.net/helm/HarukawaSayaka/100.png')
-        h3 HarukawaSayaka
+        img.img(src='https://minotar.net/helm/Harukawa_uwu/100.png')
+        h3 Harukawa_uwu
         p 管理员
       section
         img.img(src='https://minotar.net/helm/tobell/100.png')
