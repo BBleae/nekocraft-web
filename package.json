@@ -7,16 +7,16 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "swiper": "^8.1.0",
-    "vue": "^3.0.5",
-    "webpack": "^5.72.0"
+    "swiper": "^11.1.6",
+    "vue": "^3.4.33",
+    "webpack": "^5.93.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.4",
-    "@vue/compiler-sfc": "^3.0.5",
-    "less": "^4.1.2",
-    "less-loader": "7.x",
-    "pug": "^3.0.2",
-    "vite": "^2.4.0"
+    "@vitejs/plugin-vue": "^5.1.0",
+    "@vue/compiler-sfc": "^3.4.33",
+    "less": "^4.2.0",
+    "less-loader": "12.x",
+    "pug": "^3.0.3",
+    "vite": "^5.3.4"
   }
 }

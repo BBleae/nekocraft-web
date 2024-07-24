@@ -75,8 +75,8 @@ main
         h3 Lulu_Fengling
         p 管理员
       section
-        img.img(src='https://minotar.net/helm/RukiaOvO/100.png')
-        h3 RukiaOvO
+        img.img(src='https://minotar.net/helm/NishikataOvO/100.png')
+        h3 NishikataOvO
         p 管理员
       section
         img.img(src='https://minotar.net/helm/YtonE/100.png')
@@ -90,12 +90,12 @@ main
       li
         | Telegram 群组:
         a(href='https://t.me/NekoCraft' target='_blank') @NekoCraft
-      li
-        a(href='https://www.mcbbs.net/thread-1156058-1-1.html' target='_blank') MCBBS 宣传贴
+      //- li
+      //-   a(href='https://www.mcbbs.net/thread-1156058-1-1.html' target='_blank') MCBBS 宣传贴
       li
         a(href='https://user.nekocraft.net' target='_blank') 用户中心
       li
-        a(href='https://user.nekocraft.net/#/maps' target='_blank') 网页地图
+        a(href='https://map.nekocraft.net' target='_blank') 网页地图
       li
         a(href='https://user.nekocraft.net/#/about' target='_blank') 服务器规定
       li
